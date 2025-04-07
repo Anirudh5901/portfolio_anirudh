@@ -13,11 +13,9 @@ const Approach = () => {
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center w-full gap-4">
         {/* add des prop */}
         <Card
-          title="Planning & Strategy"
+          title="Design and Planning"
           icon={<AceternityIcon order="Phase 1" />}
-          des="We'll collaborate to map out your website's goals, target audience, 
-          and key functionalities. We'll discuss things like site structure, 
-          navigation, and content requirements."
+          des="Define the contract's purpose, functionality, and specifications, outlining requirements and potential security considerations."
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
@@ -26,11 +24,9 @@ const Approach = () => {
           />
         </Card>
         <Card
-          title="Development & Progress Update"
+          title="Implementation and Testing"
           icon={<AceternityIcon order="Phase 2" />}
-          des="Once we agree on the plan, I cue my lofi playlist and dive into
-          coding. From initial sketches to polished code, I keep you updated
-          every step of the way."
+          des="Write the smart contract code, deploy it to a test environment, and rigorously test for functionality, edge cases, and vulnerabilities."
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -48,11 +44,9 @@ const Approach = () => {
           {/* <div className="absolute inset-0 [mask-image:radial-gradient(400px_at_center,white,transparent)] bg-black/50 dark:bg-black/90" /> */}
         </Card>
         <Card
-          title="Development & Launch"
+          title="Deployment and Maintenance"
           icon={<AceternityIcon order="Phase 3" />}
-          des="This is where the magic happens! Based on the approved design, 
-          I'll translate everything into functional code, building your website
-          from the ground up."
+          des="Deploy the contract to the main blockchain network, monitor its performance, and update or audit it as needed to ensure ongoing security and efficiency."
         >
           <CanvasRevealEffect
             animationSpeed={3}
