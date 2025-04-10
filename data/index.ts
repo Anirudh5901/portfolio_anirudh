@@ -101,7 +101,7 @@ export const projects = [
   {
     id: 3,
     title: "Cross-Chain Rebase Token",
-    des: "Built a cross-chain rebae token with a vault and bridging functionality using Chainlink ccip and CCT standard",
+    des: "Built a cross-chain rebase token with a vault and bridging functionality using Chainlink ccip and CCT standard",
     img: "/project3.png",
     iconLists: [
       "/solidity.png",
