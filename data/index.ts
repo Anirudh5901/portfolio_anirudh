@@ -119,6 +119,21 @@ export const projects = [
     iconLists: ["/solidity.png", "/Foundry.png", "/Chainlink.png"],
     link: "https://github.com/Anirudh5901/foundry-lottery",
   },
+  {
+    id: 5,
+    title: "Mini-Swap-V2",
+    des: "Developed a minimal UniswapV2 clone with a focus on core functionalities and gas optimization",
+    img: "/Project5.png",
+    iconLists: [
+      "/solidity.png",
+      "/Foundry.png",
+      "/re.svg",
+      "/tail.svg",
+      "/Javascript.png",
+      "/Ethers.png",
+    ],
+    link: "https://github.com/Anirudh5901/cpamm",
+  },
 ];
 
 export const workExperience = [
