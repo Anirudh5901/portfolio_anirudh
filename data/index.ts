@@ -115,7 +115,7 @@ export const projects = [
     id: 4,
     title: "Foundry Lottery",
     des: "Developed a decentralized lottery application using Solidity smart contracts with secure randomization",
-    img: "/project4.png",
+    img: "/Project6.png",
     iconLists: ["/solidity.png", "/Foundry.png", "/Chainlink.png"],
     link: "https://github.com/Anirudh5901/foundry-lottery",
   },
