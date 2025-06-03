@@ -1,3 +1,5 @@
+import { title } from "process";
+
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
@@ -8,7 +10,7 @@ export const gridItems = [
   {
     id: 1,
     title:
-      "I develop with a security-first mindset, ensuring smart contracts are robust, auditable, and built with client input at every phase",
+      "I build secure, scalable full-stack and blockchain apps with a focus on user needs and iterative collaboration",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -38,7 +40,7 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Web3 enthusiast with a passion for smart contract development.",
+    title: "Passionate about full-stack innovation and decentralized solutions",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -49,7 +51,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently doing a UniswapV3 course ",
+    title: "Currently mastering UniswapV3 and Next.js for cutting-edge apps",
     description: "",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -133,6 +135,35 @@ export const projects = [
       "/Ethers.png",
     ],
     link: "https://github.com/Anirudh5901/cpamm",
+  },
+  {
+    id: 6,
+    title: "Mover",
+    des: "Developed a ride hailing app similar to Uber with live location tracking using google maps and socket.io",
+    img: "/mover.png.png",
+    iconLists: [
+      "/re.svg",
+      "/tail.svg",
+      "/Javascript.png",
+      "/mongodb.png",
+      "/socket.png",
+    ],
+    link: "https://mover-one.vercel.app/",
+  },
+  {
+    id: 7,
+    title: "SnapSumm AI",
+    des: "Developed an AI application that converts PDFs into concise, beautiful summaries in a snap using Open Ai and Gemini AI as well as Stripe for payments",
+    img: "/snapsumm.png.png",
+    iconLists: [
+      "/next.svg",
+      "/tail.svg",
+      "/Javascript.png",
+      "/ts.svg",
+      "/c.svg",
+      "neondb.png",
+    ],
+    link: "https://snapsum-six.vercel.app/",
   },
 ];
 

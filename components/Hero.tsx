@@ -52,12 +52,13 @@ const Hero = () => {
            *  change md:text-6xl, add more responsive code
            */}
           <TextGenerateEffect
-            words="Transforming ideas into secure, decentralized realities."
+            words="Crafting innovative full-stack and blockchain solutions."
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi, I am Anirudh, a Smart Contract Developer based in India
+            Hi, I am Anirudh, a Full-Stack, Smart Contract developer based in
+            India
           </p>
 
           <a href="#about">

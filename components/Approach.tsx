@@ -13,9 +13,9 @@ const Approach = () => {
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center w-full gap-4">
         {/* add des prop */}
         <Card
-          title="Design and Planning"
+          title="Strategy and Design"
           icon={<AceternityIcon order="Phase 1" />}
-          des="Define the contract's purpose, functionality, and specifications, outlining requirements and potential security considerations."
+          des="Collaborate to define project goals, design intuitive UI/UX, plan secure APIs, and outline blockchain functionality for scalable solutions."
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
@@ -24,9 +24,9 @@ const Approach = () => {
           />
         </Card>
         <Card
-          title="Implementation and Testing"
+          title="Development and Testing"
           icon={<AceternityIcon order="Phase 2" />}
-          des="Write the smart contract code, deploy it to a test environment, and rigorously test for functionality, edge cases, and vulnerabilities."
+          des="Build robust full-stack apps with React, Node.js, and AI, write secure smart contracts, and test extensively for performance, UX, and security."
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -44,9 +44,9 @@ const Approach = () => {
           {/* <div className="absolute inset-0 [mask-image:radial-gradient(400px_at_center,white,transparent)] bg-black/50 dark:bg-black/90" /> */}
         </Card>
         <Card
-          title="Deployment and Maintenance"
+          title="Deployment and Optimization"
           icon={<AceternityIcon order="Phase 3" />}
-          des="Deploy the contract to the main blockchain network, monitor its performance, and update or audit it as needed to ensure ongoing security and efficiency."
+          des="Deploy apps on Vercel and blockchain networks, optimize AI and real-time performance, and maintain security with audits and updates."
         >
           <CanvasRevealEffect
             animationSpeed={3}

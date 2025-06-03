@@ -17,8 +17,8 @@ const Footer = () => {
 
       <div className="flex flex-col items-center">
         <h1 className="heading lg:max-w-[45vw]">
-          Lets bring <span className="text-purple">your</span> smart contract
-          ideas to life. Contact me to get started!
+          Lets bring <span className="text-purple">your</span> ideas to life.
+          Contact me to get started!
         </h1>
         <p className="text-white-200 md:mt-10 my-5 text-center">
           Reach out to me today and let&apos;s discuss how I can help you.
